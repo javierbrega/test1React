@@ -1,47 +1,46 @@
 /* src/index.css */
 body {
-    font-family: Arial, sans-serif;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-    background-color: #f0f0f0;
-  }
-  
-  header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-  }
-  
-  nav ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  nav ul li {
-    display: inline;
-    margin-right: 10px;
-  }
-  
-  nav ul li a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  nav ul li a:hover {
-    text-decoration: underline;
-  }
-  
-  main {
-    padding: 20px;
-  }
-  
-  footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-  }
-  
+  font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  background-color: #f0f0f0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}

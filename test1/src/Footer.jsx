@@ -5,6 +5,7 @@ function Footer() {
   return (
     <footer>
       <p>© 2024 Javier Brega. Todos los derechos reservados.</p>
+      
     </footer>
   );
 }
