@@ -47,6 +47,11 @@ footer {
   width: 100%;
   bottom: 0;
 }
+h5 {
+  margin: 10;
+  margin-left: 20px;
+  text-align: left;
+}
 
 .menu-icon {
   font-size: 2rem;
