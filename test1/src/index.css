@@ -40,18 +40,18 @@ main {
 }
 
 footer {
-  background-color: #333;
+  background-color: #c41351;
   color: #fff;
-  padding: 20px 0; 
-  display: flex; 
-  justify-content: space-around; /* Distribuye las columnas equitativamente */ 
-  text-align: left; /* Alinea el texto a la izquierda */ 
-} 
-.footer-column { 
-  flex: 1; /* Cada columna ocupa el mismo espacio */ 
-  padding: 0 20px; /* Añade un poco de espacio entre las columnas */ 
-} 
-.footer-column h3 { margin-top: 0; }
+  padding: 10px 0;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+h5 {
+  margin: 10;
+  margin-left: 20px;
+  text-align: left;
+}
 
 .menu-icon {
   font-size: 2rem;
@@ -102,12 +102,4 @@ footer {
   .nav-menu li a {
     color: #fff;
   }
-  footer { 
-    flex-direction: column; /* Cambia a una sola columna en pantallas pequeñas */ 
-    text-align: center; /* Centra el texto en pantallas pequeñas */ 
-  } 
-  .footer-column { 
-    padding: 10px 0; /* Ajusta el padding para pantallas pequeñas */ 
-  } 
 }
-
