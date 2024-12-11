@@ -6,6 +6,9 @@
 }
 
 html, body {
+  position: relative;padding-bottom: 3em;
+  min-height: 100vh;
+
   height: 100%; /* Asegura que ocupen toda la altura */
   margin: 0;
   display: flex;
@@ -61,7 +64,10 @@ footer {
   background-color: #ec3853;
   color: #fefdfd;
   padding: 20px 0;
-  position:static;
+  position:absolute;
+  bottom:0;
+  width: 100%;
+
   
 }
 .footer-column a {
