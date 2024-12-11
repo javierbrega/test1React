@@ -1,10 +1,28 @@
-body {
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+html, body {
+  height: 100%; /* Asegura que ocupen toda la altura */
+  margin: 0;
+  display: flex;
+  flex-direction: column;
   font-family: Arial, sans-serif;
   padding: 0;
-  margin: 0;
   text-align: center;
   background-color: #f0f0f0;
+   
 }
+
+ 
+main {
+  flex: 1; /* Hace que main tome el espacio disponible */
+  padding: 20px;
+}
+
 
 header {
   background-color: #333;
@@ -40,17 +58,45 @@ main {
 }
 
 footer {
-  background-color: #c41351;
-  color: #fff;
-  padding: 10px 0;
-  position: absolute;
-  width: 100%;
-  bottom: 0;
+  background-color: #ec3853;
+  color: #fefdfd;
+  padding: 20px 0;
+  position:static;
+  
 }
-h5 {
-  margin: 10;
-  margin-left: 20px;
-  text-align: left;
+.footer-column a {
+  
+  color: #fff; /* Letras en blanco */
+  text-decoration: none; /* Sin subrayado */
+  
+}
+
+.footer-column a:hover {
+  text-decoration: underline; /* Subrayado al pasar el cursor (opcional) */
+}
+
+
+.footer-flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:auto;
+  justify-content:space-around;
+  flex-wrap: wrap;  
+  align-items:self-start;
+
+}
+
+.footer-column {
+  list-style: none;
+  color: #f5f2f2;
+  font-family: 'Courier New', Courier, monospace ;
+  font-weight: bold;
+  margin: 5px;
+  padding: 10px;
+  text-align: center;
+  
+  
 }
 
 .menu-icon {
