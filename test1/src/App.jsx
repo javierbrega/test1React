@@ -1,13 +1,14 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import Home from './pages/home'; // Los componentes comienzan con mayúscula
+import Home from './pages/home'; 
 import Contacto from './pages/contacto';
+import Header from './components/Header';
 
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Home />} /> {/* Componente con letra mayúscula */}
-      <Route path="/contacto" element={<Contacto />} /> {/* Ruta actualizada */}
+      <Route path="/" element={<Home />} /> 
+      <Route path="/contacto" element={<Contacto />} /> 
     </Routes>
   );
 }

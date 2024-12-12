@@ -1,10 +1,13 @@
-import React from 'react'
-import { Routes } from 'react-router-dom'
+import React from 'react';
+import Footer from '../components/Footer'; // Corregida la importación
 
 function Home() {
   return (
-    <h1>hola estamos en Home</h1>
-  )
+    <div>
+      <h1>Hola, estamos en Home</h1>
+      <Footer /> {/* Componente Footer agregado */}
+    </div>
+  );
 }
 
-export default Home
+export default Home;
