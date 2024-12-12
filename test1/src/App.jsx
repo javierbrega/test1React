@@ -1,21 +1,15 @@
-// src/App.jsx
 import React from 'react';
-import Header from './components/Header';
-import Footer from './components/Footer';
-
+import { Route, Routes } from 'react-router-dom';
+import Home from './pages/home'; // Los componentes comienzan con mayúscula
+import Contacto from './pages/contacto';
 
 function App() {
   return (
-    <div>
-      <Header />
-      <main>
-      <h1>!Hola, Mundo!</h1>
-      <p>Tu configuracion de React con Vite está lista para funcionar</p>
-      </main>
-      <Footer />
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} /> {/* Componente con letra mayúscula */}
+      <Route path="/contacto" element={<Contacto />} /> {/* Ruta actualizada */}
+    </Routes>
   );
 }
 
 export default App;
-
