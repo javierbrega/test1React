@@ -12,4 +12,4 @@ function Contacto() {
   );
 }
 
-export default contacto;
+export default Contacto;
