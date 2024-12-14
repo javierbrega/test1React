@@ -31,7 +31,7 @@ function Header() {
 
         <ul className={`nav-menu ${isOpen ? "open" : ""}`}>
           <li>
-            <a href="#home">Inicio</a>
+            <a href="./">Inicio</a>
           </li>
           <li>
             <a href="#Moviliario">Moviliario</a>
@@ -43,10 +43,10 @@ function Header() {
             <a href="#Pedidos">Pedidos OnLine</a>
           </li>
           <li>
-            <a href="#Sobre Nosotros">Sobre Nosotros</a>
+            <a href="./SobreNosotros">Sobre Nosotros</a>
           </li>
           <li>
-            <a href="#Contacto">Contacto</a>
+            <a href="./Contacto">Contacto</a>
           </li>
         </ul>
       </nav>
