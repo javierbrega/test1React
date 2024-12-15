@@ -1,5 +1,5 @@
 // src/Header.jsx
-import React, { useState } from "react";
+import React, { useState } from "react"; 
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
@@ -34,10 +34,10 @@ function Header() {
             <a href="./">Inicio</a>
           </li>
           <li>
-            <a href="#Moviliario">Moviliario</a>
+            <a href="./Carpinteria">Carpinteria</a>
           </li>
           <li>
-            <a href="#Construcción">Construcción</a>
+            <a href="./Construccion">Construcción</a>
           </li>
           <li>
             <a href="./Pedidos">Pedidos</a>
