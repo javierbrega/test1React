@@ -2,14 +2,14 @@ import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
-function Contacto() {
+function LinkLopez () {
   return (
     <div>
       <Header /> {/* Componente Header agregado*/}
-      <h1>hola estamos en contacto</h1>
+      <h1>hola estamos en nuestra red social</h1>
       <Footer /> {/* Componente Footer agregado */}
     </div>
   );
 }
 
-export default Contacto;
+export default LinkLopez;

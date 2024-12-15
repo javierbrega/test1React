@@ -46,7 +46,7 @@ function Header() {
             <a href="./Nosotros">Nosotros</a>
           </li>
           <li>
-            <a href="./Contacto">Contacto</a>
+            <a href="./LinkLopez">LinkLopez</a>
           </li>
         </ul>
       </nav>
