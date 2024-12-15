@@ -40,10 +40,10 @@ function Header() {
             <a href="#Construcción">Construcción</a>
           </li>
           <li>
-            <a href="./Pedidos">Pedidos OnLine</a>
+            <a href="./Pedidos">Pedidos</a>
           </li>
           <li>
-            <a href="./SobreNosotros">Sobre Nosotros</a>
+            <a href="./Nosotros">Nosotros</a>
           </li>
           <li>
             <a href="./Contacto">Contacto</a>

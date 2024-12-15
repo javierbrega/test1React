@@ -2,16 +2,16 @@ import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer"
 
-function SobreNosotros () {
+function Nosotros () {
     return (
 
        <div>
         <Header/> 
-        <h1>ahora estamos en sobre nosotros</h1>
+        <h1>ahora estamos en nosotros</h1>
         <Footer/>
        </div> 
     );
 
 }
 
-export default SobreNosotros;
+export default Nosotros;
